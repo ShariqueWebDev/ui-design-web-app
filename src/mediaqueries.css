@@ -1,0 +1,459 @@
+@media(max-width:1100px) {
+    .section {
+        display: flex;
+        align-items: center;
+        margin: 8rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    html {
+        font-size: 8px;
+    }
+
+    .indusRelvnt .bruchor .bruImage .beforeDiv {
+        top: 53%;
+    }
+
+    .main_articles .logos .info p {
+        padding: 12.1rem 1rem;
+    }
+}
+
+@media (max-width:800px) {
+    .navBar{
+        /* padding: 20px; */
+        height: 50px;
+    }
+    .navBar .myLinks {
+        display: none;
+    }
+
+    .navBar .mobileLink {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        /* flex-direction: column-reverse; */
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        display: block;
+        z-index: 10;
+        background-color: rgb(212, 209, 209);
+        transition: all 1s ease-in;
+        border-bottom-right-radius: 100px;
+    }
+
+    .navBar .openMenu {
+        display: block;
+        position: absolute;
+        right: 4%;
+        top: 20%;
+    }
+
+    .navBar .myLinks .closeMenu {
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 5%;
+    }
+
+    .navBar .myLinks li{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .navBar .myLinks .ulDiv {
+        text-align: center;
+    }
+
+    .navBar #searchArea {
+        margin-top: 1rem;
+        height: 25px;
+        width: 60%;
+    }
+
+    .headDiv .test {
+        width: 100vw;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .footerDiv .searchFooter .copyRight {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerDiv .searchFooter .copyRight p {
+        text-align: center;
+    }
+}
+
+@media (max-width:700px) {
+    .main_b {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 2rem 0; */
+    }
+
+    .main_container_b {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .lastSection {
+        width: 100%;
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+
+    .main_container_b .frame {
+        width: 50rem;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 8px;
+    }
+
+    .headDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headDiv .test {
+        width: 100vw;
+    }
+
+    .imgContainer img {
+        width: 60vw;
+        transform: translate(-25%);
+    }
+
+    .indusRelvnt .bruchores {
+        /* display: flex; */
+        flex-wrap: wrap;
+        /* width: 80vw; */
+        /* justify-content: center; */
+        /* align-items: center; */
+
+    }
+
+    .indusRelvnt .bruchores .bruchor {
+        width: 315px;
+    }
+
+    .indusRelvnt .bruchor .bruImage .beforeDiv {
+        top: 53%;
+    }
+
+    .footerDiv .searchFooter .footerList {
+        margin: 2rem;
+    }
+
+    .footerDiv .searchFooter #footerSearch {
+        width: 65rem;
+    }
+
+    .footerDiv .searchFooter .footerList li {}
+
+    .videoSection .vidDetail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .videoSection .vidDetail .shortDBtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .videoSection .videoSec .PersonCount p,
+    span {
+        text-align: center;
+    }
+
+    .videoSection .videoSec .iframeSec iframe {
+        width: 400px;
+    }
+
+    .section {
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .section img {
+        margin-top: 20px;
+        width: 40rem;
+    }
+
+    .lastDiv .animation p {
+        font-size: 20px;
+        /* padding: 5px; */
+    }
+
+    .section_two .socialMedia .socialDetail {
+        width: 48rem;
+    }
+
+    .section_two .socialMedia .socialDetail p {
+        font-size: 17px;
+        padding: 5px;
+
+    }
+
+    .firstcontainer .containerTop h1 {
+        font-size: 35px;
+        padding: 4rem;
+    }
+
+    .firstcontainer .containerTop p {
+        font-size: 15px;
+    }
+    
+}
+
+
+@media (max-width:570px) {
+    html {
+        font-size: 6px;
+    }
+
+    .imgContainer img {
+        transform: translate(-22%);
+    }
+
+    .indusRelvnt .bruchor {
+        /* width: 43.5rem;        */
+    }
+
+    .indusRelvnt .bruchor .bruImage .beforeDiv {
+        top: 59%;
+    }
+
+    .footerDiv .searchFooter #footerSearch {
+        width: 85vw;
+    }
+
+    .main_articles .logos .info p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:600px) {
+
+    /* .footerDiv .searchFooter .footerList .fHead::before{
+        display: block;
+    }
+    .footerDiv .searchFooter .footerList .hfeild{
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    } */
+    .footerDiv .searchFooter .footerList .hfeild .fcontent li {
+        margin: 10px;
+    }
+
+    .footerDiv .searchFooter .footerList ul {
+        margin: 5px;
+        width: 100%;
+    }
+
+    .main_articles .logos .info p {
+        font-size: 27px;
+    }
+    .footerDiv .fcontent{
+        height: 0;    
+        overflow: hidden;
+    }
+
+    .fcontentActive{
+       height: 100%;
+   
+    }
+    .footerDiv .searchFooter .footerList  .Fpara{
+        display: block;
+    }
+
+}
+
+@media(max-width:550px) {
+    html {
+        font-size: 6px;
+    }
+
+    .videoSection .vidDetail .shortDBtn .ReqBtn {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .main_articles .logos .info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_articles .logos .info p {
+        width: 100vw;
+    }
+
+    .main_articles .logos .info .uls {
+        width: 65rem;
+    }
+
+    .main_articles .logos .info {
+        width: 65rem;
+    }
+
+    .indusRelvnt .bruchor {
+        /* width: 50.5rem;        */
+    }
+
+    .indusRelvnt .bruchor .bruImage .beforeDiv {
+        top: 57%;
+    }
+    .ClickTop{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 25px;
+        right: 25px;
+        background-color: #4267B2;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50;
+        /* text-align: center; */
+      }
+      .innerDiv{
+         position: absolute;
+        width: 20px;
+         height: 20px;
+         top: -38px;
+         left: 25px;
+         font-size: 50px;
+      }
+      .ChatName{
+  
+        max-width: 40px;
+         
+      }
+      .ChatName img:hover{
+        /* transform: scale(1.1); */
+        translate: -10px;
+        transition: all 0.3s ease-in-out;
+      }
+
+}
+
+@media screen and (max-width:750px) {
+    .social {
+        height: 100%;
+        padding: 10px;
+    }
+
+    .socialmedia {
+        position: relative;
+    }
+
+    .mainbox .frame_container {
+        display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .resources {
+        font-size: 3vw;
+    }
+
+    .follow {
+        font-size: 3vw;
+    }
+
+    .sociallink {
+        font-size: 3vw;
+    }
+
+    .social {
+        height: 100%;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .socialmedia {
+        font-size: 3vw;
+        padding-bottom: 25px;
+        /* line-height: 40px; */
+    }
+
+    .socialmedia p {
+        line-height: px;
+    }
+
+    .socialmedia ul {
+        font-size: 3vw;
+    }
+
+    .socialmedia ul li {
+        font-size: 3vw;
+    }
+
+    .address {
+        font-size: 3vw;
+        padding-right: 10px;
+    }
+
+    .last {
+        font-size: 3vw;
+    }
+
+    .copyright {
+        font-size: 3vw;
+    }
+
+    .lastEL {
+        font-size: 3vw;
+    }
+}
+
+@media(max-width:393px) {
+    html {
+        font-size: 5px;
+        font-weight: 600;
+    }
+
+    .main_articles .logos .info {
+        width: 52rem;
+    }
+
+    .indusRelvnt .bruchor {
+        /* width: 50.5rem;        */
+    }
+
+    .indusRelvnt .bruchor .bruImage .beforeDiv {
+        top: 60%;
+    }
+
+    .videoSection .videoSec .iframeSec iframe {
+        width: 300px;
+    }
+
+    .videoSection .vidDetail .shortDBtn {}
+
+    .videoSection .vidDetail .shortDBtn .ReqBtn {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

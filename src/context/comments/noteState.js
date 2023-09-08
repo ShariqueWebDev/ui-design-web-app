@@ -6,22 +6,22 @@ function NoteState(props) {
 
         {
             "id" :"1",
-            "name": "Tarique",
+            "name": "John",
             "suggestion": "Hi this is suggestion"
         },
         {
             "id":"2",
-            "name": "sharique",
+            "name": "Chris",
             "suggestion": "Hi this is suggestion"
         },
         {
             "id":"3",
-            "name": "Safiya",
+            "name": "Wilson",
             "suggestion": "Hello world"
         },
         {
             "id":"4",
-            "name": "Darakhsha",
+            "name": "William",
             "suggestion": "Hello world"
         }
     ]

@@ -57,7 +57,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="copyRight">
-                        <p>All right resevered 2021</p>
+                        <p>This website created by Shaikh Sharique All right resevered 2021 </p>
                         <div className="footerSocialmedia">
                             <ul>
                                 <li><a href="/"><FaFacebook size="25px" id='footerF' /></a></li>

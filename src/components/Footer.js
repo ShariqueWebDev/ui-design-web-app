@@ -38,7 +38,7 @@ export default function Footer() {
                             <div className="hfeild">
                                 <div className={footerTog1 ? "fcontentActive" : "fcontent"}>
                                     <li><a href="/">Our Projects</a></li>
-                                    <li><a href="/">Careers</a></li>
+                                    <li><a href="/">Careers Opportunities</a></li>
                                     <li><a href="/">Products</a></li>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ export default function Footer() {
                             <div className="hfeild">
                                 <div className={footerTog2 ? "fcontentActive" : "fcontent"}> 
                                     <li><a href="/">Support Request</a></li>
-                                    <li><a href="/">Contact</a></li>
+                                    <li><a href="/">Contact Us</a></li>
                                     <li><a href="/">Subscriptions</a></li>
                                 </div>
                             </div>
